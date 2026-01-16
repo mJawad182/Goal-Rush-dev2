@@ -1,0 +1,17 @@
+PROPRIETARY LICENSE
+
+Copyright © 2025 Impact Forge Studio. All rights reserved.
+
+This project (Goal Rush) — including but not limited to: source code, game logic, configuration files, tools, 3D models, textures, animations, UI/UX designs, audio assets, visual effects, documentation, and build artifacts — is the exclusive property of Impact Forge Studio.
+
+This repository and its contents are provided solely to authorized employees, contractors, or collaborators who are bound by signed Non-Disclosure Agreements (NDAs), Intellectual Property Assignment Agreements, or other written contracts with Impact Forge Studio.
+
+No part of this project may be copied, distributed, sublicensed, reverse-engineered, disclosed, or used in any other product or project without express prior written permission from Impact Forge Studio.
+
+This repository is not open-source. No public license is granted. Any use, publication, or duplication of this work is strictly prohibited and will result in legal action, including but not limited to DMCA takedowns, civil claims, and contract termination.
+
+If you have received access to this repository in error, you must notify Impact Forge Studio immediately and permanently delete any copies in your possession.
+
+By accessing or contributing to this project, you confirm your understanding of and agreement to these terms.
+
+ALL RIGHTS RESERVED.
