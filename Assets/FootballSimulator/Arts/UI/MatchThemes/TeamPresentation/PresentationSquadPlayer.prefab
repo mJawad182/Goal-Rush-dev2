@@ -34,7 +34,6 @@ RectTransform:
   - {fileID: 1599568068044634233}
   - {fileID: 7912398180567027965}
   m_Father: {fileID: 6905147293713234267}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -105,7 +104,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2818392305056952612}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -183,15 +181,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -241,7 +241,6 @@ RectTransform:
   m_Children:
   - {fileID: 6832351930138610722}
   m_Father: {fileID: 6905147293713234267}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -317,7 +316,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8858748206239417707}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -395,15 +393,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -461,7 +461,6 @@ RectTransform:
   - {fileID: 2818392305056952612}
   - {fileID: 5506293318468610723}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -540,7 +539,7 @@ MonoBehaviour:
     key0: {r: 1, g: 1, b: 1, a: 0}
     key1: {r: 1, g: 0.495283, b: 0.5098107, a: 1}
     key2: {r: 1, g: 0.59385926, b: 0, a: 1}
-    key3: {r: 1, g: 0.8549689, b: 0, a: 1}
+    key3: {r: 1, g: 0.8549689, b: 0, a: 0}
     key4: {r: 0.95075846, g: 1, b: 0, a: 0}
     key5: {r: 0.41978434, g: 1, b: 0.3066038, a: 0}
     key6: {r: 0.33490568, g: 1, b: 0.8739844, a: 0}
@@ -556,12 +555,13 @@ MonoBehaviour:
     atime0: 0
     atime1: 22745
     atime2: 65535
-    atime3: 65535
+    atime3: 0
     atime4: 0
     atime5: 0
     atime6: 0
     atime7: 0
     m_Mode: 1
+    m_ColorSpace: -1
     m_NumColorKeys: 8
     m_NumAlphaKeys: 3
   overallOutlineCurve:
@@ -636,40 +636,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 1
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   disappearAnimation:
   - Name: Alpha
     PlayAlphaAnimation: 1
@@ -703,40 +669,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 0
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   pointerHoverAnimation:
   - Name: ShowHover
     PlayAlphaAnimation: 1
@@ -770,40 +702,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 1
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   - Name: HideDefault
     PlayAlphaAnimation: 1
     CanvasGroup: {fileID: 7068471205782092659}
@@ -836,40 +734,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 0
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   pointerExitAnimation:
   - Name: HideHover
     PlayAlphaAnimation: 1
@@ -903,40 +767,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 0
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   - Name: ShowDefault
     PlayAlphaAnimation: 1
     CanvasGroup: {fileID: 7068471205782092659}
@@ -969,40 +799,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 1
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   pointerClickAnimation:
   - Name: HideHover
     PlayAlphaAnimation: 1
@@ -1036,40 +832,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 0
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   - Name: HideDefault
     PlayAlphaAnimation: 1
     CanvasGroup: {fileID: 7068471205782092659}
@@ -1102,40 +864,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 0
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   - Name: ShowClick
     PlayAlphaAnimation: 1
     CanvasGroup: {fileID: 9082460485467530969}
@@ -1168,40 +896,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 0
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   - Name: HideClick
     PlayAlphaAnimation: 1
     CanvasGroup: {fileID: 9082460485467530969}
@@ -1234,40 +928,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 0
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   dontWaitAnimationToEnableInteraction: 0
   keepGameObjectActiveWhenDisappeared: 0
   _isInteractable: 1
@@ -1321,40 +981,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 1
-    Rect: {fileID: 0}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 0, y: 0, z: 0}
-    RectScaleSpeed: 0
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   - Name: HideHover
     PlayAlphaAnimation: 1
     CanvasGroup: {fileID: 3542665158727390591}
@@ -1387,58 +1013,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 0
-    Rect: {fileID: 6905147293713234267}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 1, y: 1, z: 1}
-    RectScaleSpeed: 3
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   - Name: HideActive
     PlayAlphaAnimation: 1
     CanvasGroup: {fileID: 9082460485467530969}
@@ -1471,58 +1045,6 @@ MonoBehaviour:
     UseStartingAlpha: 0
     StartingAlpha: 0
     TargetAlpha: 0
-    Rect: {fileID: 6905147293713234267}
-    PlayMovementAnimation: 0
-    AnchoredStartingPosition: {x: 0, y: 0}
-    AnchoredTargetPosition: {x: 0, y: 0}
-    RectMovementSpeed: 0
-    RectMovementCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    MovementDelay: 0
-    PlayScaleAnimation: 0
-    UseStartScale: 0
-    StartScale: {x: 0, y: 0, z: 0}
-    TargetScale: {x: 1, y: 1, z: 1}
-    RectScaleSpeed: 3
-    RectScaleCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 0
-    ScaleDelay: 0
-    PlayRotationAnimation: 0
-    TargetRotation: {x: 0, y: 0, z: 0}
-    RectRotationSpeed: 0
-    RectRotationCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 0
-      m_PostInfinity: 0
-      m_RotationOrder: 0
-    RotationDelay: 0
   onActive:
     m_PersistentCalls:
       m_Calls: []
@@ -1562,7 +1084,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2818392305056952612}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1627,6 +1148,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6905147293713234267}
     m_Modifications:
     - target: {fileID: 5887262097633565762, guid: 951c263ca766ef34dac3886594dbca66, type: 3}
@@ -1798,6 +1320,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 951c263ca766ef34dac3886594dbca66, type: 3}
 --- !u!224 &6905147292743617250 stripped
 RectTransform:
@@ -1814,6 +1339,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6905147293713234267}
     m_Modifications:
     - target: {fileID: 5887262097633565762, guid: 951c263ca766ef34dac3886594dbca66, type: 3}
@@ -1989,6 +1515,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 951c263ca766ef34dac3886594dbca66, type: 3}
 --- !u!224 &4883910030834554696 stripped
 RectTransform:
@@ -2005,6 +1534,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6905147293713234267}
     m_Modifications:
     - target: {fileID: 5887262097633565762, guid: 951c263ca766ef34dac3886594dbca66, type: 3}
@@ -2180,6 +1710,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 951c263ca766ef34dac3886594dbca66, type: 3}
 --- !u!224 &929519218323711214 stripped
 RectTransform:
@@ -2196,6 +1729,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6905147293713234267}
     m_Modifications:
     - target: {fileID: 4538004754357542205, guid: 0f0540cd3ba69624cbb59f08815db707, type: 3}
@@ -2287,6 +1821,9 @@ PrefabInstance:
       value: Position
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f0540cd3ba69624cbb59f08815db707, type: 3}
 --- !u!224 &5506293318468610723 stripped
 RectTransform:

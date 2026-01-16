@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2818392305056952612, guid: dcc6ace83d80f2f49b18c1d506e72206, type: 3}
@@ -38,6 +39,14 @@ PrefabInstance:
     - target: {fileID: 5506293318468610723, guid: dcc6ace83d80f2f49b18c1d506e72206, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 12.299988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6076188775857001366, guid: dcc6ace83d80f2f49b18c1d506e72206, type: 3}
+      propertyPath: overallColorGradient.atime3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6076188775857001366, guid: dcc6ace83d80f2f49b18c1d506e72206, type: 3}
+      propertyPath: overallColorGradient.key3.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6832351930138610722, guid: dcc6ace83d80f2f49b18c1d506e72206, type: 3}
       propertyPath: m_AnchorMax.y
@@ -168,4 +177,7 @@ PrefabInstance:
       value: 15.29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcc6ace83d80f2f49b18c1d506e72206, type: 3}

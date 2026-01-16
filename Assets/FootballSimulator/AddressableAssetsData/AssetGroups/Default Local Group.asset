@@ -382,11 +382,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e21101f9fa9d87c44b6597065a38eeb6
-    m_Address: Assets/Bundles/Sources/Stadium/Stadium1_Small.unity
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e28ce3bd7bd40e44fa09d0a324809aaf
     m_Address: Assets/PlayableFormations/Balanced/2_3_5.asset
     m_ReadOnly: 0
@@ -454,6 +449,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fc2e6e10acc89024f9343b9731d8297b
     m_Address: Assets/Arts/TrainingField/Materials/Fence_MAT.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e21101f9fa9d87c44b6597065a38eeb6
+    m_Address: Assets/Scenes/Stadium1_Small.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
